@@ -1,0 +1,41 @@
+/* Shared page breadcrumbs for interior screens. */
+.page-breadcrumb {
+  width: min(100% - 2rem, 1240px);
+  margin: 0 auto;
+  padding: .85rem 0;
+  color: var(--color-muted);
+  font-family: var(--font-body);
+  font-size: .75rem;
+  line-height: 1.4;
+}
+
+.page-breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page-breadcrumb a {
+  color: var(--color-muted);
+  text-decoration: none;
+  transition: color .18s ease;
+}
+
+.page-breadcrumb a:hover {
+  color: var(--color-primary);
+}
+
+.page-breadcrumb [aria-current="page"] {
+  color: var(--color-text);
+}
+
+@media (max-width: 760px) {
+  .page-breadcrumb {
+    width: min(100% - 1.25rem, 1240px);
+    padding: .7rem 0;
+  }
+}

@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #ff8040;
+  --color-primary-contrast: #001515;
+  --color-bg: #000000;
+  --color-surface: #001717;
+  --color-surface-alt: #0a1212;
+  --color-text: #f3ead7;
+  --color-muted: #e7eaed;
+  --color-line: #004000;
+  --color-alert: #b96565;
+  --color-success: #8fb69f;
+  --color-focus: #f3ead7;
+  --font-heading: "Fraunces", Georgia, serif;
+  --font-brand: "Antonio", var(--font-heading);
+  --font-subheading: "Fraunces", Georgia, serif;
+  --font-tertiary-heading: "Fraunces", Georgia, serif;
+  --font-body: Inter, Arial, sans-serif;
+  --radius: 9px;
+  --shadow: 0 20px 50px rgba(0, 0, 0, .35);
+}
